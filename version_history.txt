@@ -1,0 +1,40 @@
+project_version1
+-Creates very basic GUI aspects as well as testing the scrollbar functionality
+
+project_version2
+-GUI much more defined, includes tickbox class and custom filter class
+-Ability to create custom filters, no preservation of anything
+-Basic functionality beginnings
+-Includes beginings of file management and internal documentation
+
+project_version3
+-GUI very defined, tickbox class completed, custom filter class finished (before revisting it and changing)
+-Ability to Create, Remove, Cancel and Edit custom filters
+-Able to load into a custom filter and all its attributes are loaded into the GUI
+-Saves most aspects of the custom filters to the text file
+
+project_version4
+-More extensive Internal Documentation and file management
+-Full preservation when closing, loads custom filters back in on open
+-Revisted how the tickbox states are stored, changed so that they are now stored in the
+ custom filter class
+-Basic validation included
+
+project_version5
+-New module, create_database
+-Creates a test database (as a csv) based on certain parameters with randomness
+
+project_version6
+-Heavy increase on internal documentation and validation
+-New module, database_functionality
+-Imports database into arrays, sorts/searchs and filters out data
+-Currently only sorts the data by jobTitle
+-GUI update, databse is shown on three listboxes linked to 1 scrollbar
+-Currently filters that are set to active is what is being displayed (needs revision)
+
+project_version7
+-Filtering now has proper featues, able to input what is filtered
+-Custom filter object stores the searched attributes
+-database_functionality module has an updated function, filtering function now filters out the values from the database
+-Fixed a few errors
+-Second to last version
